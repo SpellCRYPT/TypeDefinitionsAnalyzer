@@ -6,7 +6,8 @@
     "private": true,
     "scripts": {
         "postinstall": "tsc",
-        "fmt": "prettier --write ."
+        "fmt": "prettier --write .",
+        "test": "tsc && node dist/test/index.js"
     },
     "devDependencies": {
         "@types/node": "^18.11.3",

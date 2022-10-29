@@ -1,6 +1,6 @@
-import analyzeFunctionTypes from './src/analyzeFunctionTypes';
-import extractNamespace from './src/extractNamespace';
-import analyzer from './src/analyzer';
+import analyzeFunctionTypes from '../src/analyzeFunctionTypes';
+import extractNamespace from '../src/extractNamespace';
+import analyzer from '../src/analyzer';
 
 const source = `
 function fn1(a: number, b: number, c: number): string;
